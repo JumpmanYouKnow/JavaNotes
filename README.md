@@ -10,7 +10,9 @@ ArrayList is implemented based on primitive array
 Feature: 
 ArrayList<T> myarrlist = new ArrayList<T>()
 #### 1.Type Satety
-compile time checking for correct type  impossible for array, but array provides run time checking
+ArrayList provides stronger type safety ensurance than array
+  
+https://coderanch.com/t/625190/certification/Array-ArrayList-Thread-safety-Type
 
 #### 2. Flexibility
 ArrayList has Dynamic, and a better interface
