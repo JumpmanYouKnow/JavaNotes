@@ -1,5 +1,5 @@
 # JavaNotes
-JavaNotes I wrote during work and academia
+Java NOtes and cheat sheet I wrote during work and academia
 
 Generic Java
 ---------------------
