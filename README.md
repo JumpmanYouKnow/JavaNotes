@@ -21,3 +21,6 @@ length is the actually length
 
 #### 4. Multi-dimension
 arraylist doesn't support multi-dimension, array does
+
+#### 5, primitive types
+ArrayList doesn't support primitive types
