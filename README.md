@@ -31,6 +31,8 @@ ArrayList doesn't support primitive types
 Primitive types gurantees thread-safety
 Objects doesn't
 
+Java string is thread-safe, but stringbuffer is not
+
 ### 3. String pool
 ```java
 String str1 = new string("abc") // allocate space on heap, put it in string pool, return reference from  heap
@@ -50,5 +52,4 @@ a + b, if both constant, consider as string literal
 a + b, if either is not constant, consider as variable, use new String()
 ```
 
-### 4. String
-Java string is thread-safe, but stringbuffer is not
+
