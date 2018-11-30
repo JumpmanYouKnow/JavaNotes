@@ -29,9 +29,9 @@ ArrayList doesn't support primitive types
 
 ### 2. Multi-threading
 Primitive types gurantees thread-safety
-Objects doesn't
+Immutable objects are thread-safe, but mutable objects are not.
+For example, String is thread-safe, Stringbuffer is not.
 
-Java string is thread-safe, but stringbuffer is not
 
 ### 3. String pool
 ```java
