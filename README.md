@@ -46,6 +46,4 @@ str1 = str1.intern()
 now str2 = str1 = str3
 
 
-so, str1 == str2
-
 ```
