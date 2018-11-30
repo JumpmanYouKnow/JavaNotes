@@ -45,5 +45,10 @@ str1 = str1.intern()
 // if string pool contains the object str1 is referring(on heap), refer to string pool instead of heap. ojbect on heap will go to GC 
 now str2 = str1 = str3
 
-
+// string concate
+a + b, if both constant, consider as string literal
+a + b, if either is not constant, consider as variable, use new String()
 ```
+
+### 4. String
+Java string is thread-safe, but stringbuffer is not
