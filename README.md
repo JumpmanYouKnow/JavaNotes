@@ -52,4 +52,14 @@ a + b, if both constant, consider as string literal
 a + b, if either is not constant, consider as variable, use new String()
 ```
 
+### 4. Array copy
+```java
+import java.util.Arrays;
 
+int a[]={10,20,30,40,50};
+int b[]=new int[a.length];
+
+b = a // shallow copy, only copy reference
+
+b=Arrays.copyOf(a,a.length); ////copying one array to another
+```
