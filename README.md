@@ -18,8 +18,8 @@ https://coderanch.com/t/625190/certification/Array-ArrayList-Thread-safety-Type
 ArrayList has Dynamic, and a better interface
 
 #### 3. Size vs length
-Size is the capacity
-length is the actually length
+arraylist.size() is the actually length
+array.length is the actually capacity of array
 
 #### 4. Multi-dimension
 arraylist doesn't support multi-dimension, array does
