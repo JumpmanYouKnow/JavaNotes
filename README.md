@@ -52,8 +52,9 @@ a + b, if both constant, consider as string literal
 a + b, if either is not constant, consider as variable, use new String()
 ```
 
-### 4. Array copy
+### 4. Array
 ```java
+#array copy
 import java.util.Arrays;
 
 int a[]={10,20,30,40,50};
@@ -62,7 +63,14 @@ int b[]=new int[a.length];
 b = a // shallow copy, only copy reference
 
 b=Arrays.copyOf(a,a.length); ////copying one array to another
+
+#2d array
+int[][] wrong = new int[][]; // not OK, you must specify 1st dimension
+int[][] right = new int[2][]; // OK
+
 ```
+
+
 
 ### 5. Queue
 ```java
