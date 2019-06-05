@@ -63,3 +63,18 @@ b = a // shallow copy, only copy reference
 
 b=Arrays.copyOf(a,a.length); ////copying one array to another
 ```
+
+### 5. Queue
+```java
+add element: 
+add(), throw exception when out of bound
+offer(), return false when out of bound
+
+remove first:
+remove(), throw excption when empty
+poll(), return null when empty
+
+lookup first:
+element(),
+peek()
+```
