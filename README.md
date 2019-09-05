@@ -89,3 +89,9 @@ peek()
 
 ### 6. Regex
 `\\s` will match whitespace, AND space
+
+mvn tips
+---------------------
+
+### 1. check style
+https://maven.apache.org/plugins/maven-checkstyle-plugin/usage.html
