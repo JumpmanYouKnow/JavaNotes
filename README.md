@@ -86,3 +86,6 @@ lookup first:
 element(),
 peek()
 ```
+
+### 6. Regex
+`\\s` will match whitespace, AND space
