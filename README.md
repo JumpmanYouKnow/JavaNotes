@@ -4,15 +4,17 @@ Java NOtes and cheat sheet I wrote during work and academia
 Generic Java
 ---------------------
 ### HashMap vs TreeMap
+```java
 HashMap: the hash map we know
 
 TreeMap: maintain a red-black tree internally, not O(1) lookup, but gives you a sorted keys
-
+```
 ### LinkedHashMap
+```java
 Extends HashMap, maintain a linked list internally,
 useful for `LRU` type problem.
 Leetcode #146
-
+```
 ###  ArrayList
 ArrayList is implemented based on primitive array 
 
@@ -23,17 +25,17 @@ ArrayList provides stronger type safety ensurance than array
   
 https://coderanch.com/t/625190/certification/Array-ArrayList-Thread-safety-Type
 
-#### 1. Flexibility
+#### 2. Flexibility
 ArrayList has Dynamic, and a better interface
 
-#### 2. Size vs length
+#### 3. Size vs length
 arraylist.size() is the actually length
 array.length is the actually capacity of array
 
-#### 3. Multi-dimension
+#### 4. Multi-dimension
 arraylist doesn't support multi-dimension, array does
 
-#### 4, primitive types
+#### 5, primitive types
 ArrayList doesn't support primitive types
 
 ### Multi-threading
