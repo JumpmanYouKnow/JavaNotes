@@ -16,6 +16,7 @@ useful for `LRU` type problem.
 Leetcode #146
 ```
 ###  ArrayList
+```java
 ArrayList is implemented based on primitive array 
 
 Feature: 
@@ -37,13 +38,14 @@ arraylist doesn't support multi-dimension, array does
 
 #### 5, primitive types
 ArrayList doesn't support primitive types
-
+```
 ### Multi-threading
+```java
 Primitive types gurantees thread-safety
 Immutable objects are thread-safe, but mutable objects are not.
 For example, String is thread-safe, Stringbuffer is not.
 
-
+```
 ### String pool
 ```java
 String str1 = new string("abc") // allocate space on heap, put it in string pool, return reference from  heap
