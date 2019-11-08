@@ -5,6 +5,7 @@ Generic Java
 ---------------------
 ### HashMap vs TreeMap
 HashMap: the hash map we know
+
 TreeMap: maintain a red-black tree internally, not O(1) lookup, but gives you a sorted keys
 
 ### LinkedHashMap
