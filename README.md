@@ -3,8 +3,16 @@ Java NOtes and cheat sheet I wrote during work and academia
 
 Generic Java
 ---------------------
+### HashMap vs TreeMap
+HashMap: the hash map we know
+TreeMap: maintain a red-black tree internally, not O(1) lookup, but gives you a sorted keys
 
-### 1. ArrayList
+### LinkedHashMap
+Extends HashMap, maintain a linked list internally,
+useful for `LRU` type problem.
+Leetcode #146
+
+###  ArrayList
 ArrayList is implemented based on primitive array 
 
 Feature: 
@@ -14,26 +22,26 @@ ArrayList provides stronger type safety ensurance than array
   
 https://coderanch.com/t/625190/certification/Array-ArrayList-Thread-safety-Type
 
-#### 2. Flexibility
+#### 1. Flexibility
 ArrayList has Dynamic, and a better interface
 
-#### 3. Size vs length
+#### 2. Size vs length
 arraylist.size() is the actually length
 array.length is the actually capacity of array
 
-#### 4. Multi-dimension
+#### 3. Multi-dimension
 arraylist doesn't support multi-dimension, array does
 
-#### 5, primitive types
+#### 4, primitive types
 ArrayList doesn't support primitive types
 
-### 2. Multi-threading
+### Multi-threading
 Primitive types gurantees thread-safety
 Immutable objects are thread-safe, but mutable objects are not.
 For example, String is thread-safe, Stringbuffer is not.
 
 
-### 3. String pool
+### String pool
 ```java
 String str1 = new string("abc") // allocate space on heap, put it in string pool, return reference from  heap
 String str2 = "abc" // search in string pool to find if same string exists, by method "equals", return reference from string pool
@@ -52,7 +60,7 @@ a + b, if both constant, consider as string literal
 a + b, if either is not constant, consider as variable, use new String()
 ```
 
-### 4. Array
+###  Array
 ```java
 #array copy
 import java.util.Arrays;
@@ -72,7 +80,7 @@ int[][] right = new int[2][]; // OK
 
 
 
-### 5. Queue
+###  Queue
 ```java
 add element: 
 add(), throw exception when out of bound
